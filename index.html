@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilos.css">
-    
+
     <title>Document</title>
 </head>
 
@@ -16,10 +17,10 @@
     <div class="jumbotron">
         <h1>Que Pelis!</h1>
         <p>No es una pagina para ver peliculas, es para saber de que tratan!</p>
-      </div>
+    </div>
     <!-- jumbotron final -->
-    
-    
+
+
     <!-- inicio navbar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
@@ -52,6 +53,80 @@
         </div>
     </nav>
     <!-- fin navbar -->
+
+    <!-- carrusel imagenes inicio -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="../imagenes/img/accion.jpg" alt="">
+            </div>
+            <div class="carousel-item ">
+                <img src="../imagenes/img/hombre.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/img/hab.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/img/cine.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- carrusel imagenes fin  -->
+
+    <!-- peli de la semana inicio -->
+    <h2>Lo mejor de la semana</h2>
+    <div class="conteiner-fluid">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4 imagenNoticia"> </div>
+            <div class="col-6">
+                <p>
+                <h3>Anatomía De Un Escándalo</h3>
+                Miniserie británica cuya primera temporada ya se encuentra disponible en Netflix. "Un escándalo de
+                consentimiento sexual se desata entre la élite británica privilegiada y las mujeres atrapadas a su
+                paso", indica la sinopsis de la serie.
+                La serie está protagonizada por Sienna Miller, Rupert Friend, Michelle Dockery, Naomi Scott, Ben
+                Radcliffe, Josette Simon, Jonathan Coy, Violet Verigo, entre otros. La primera temporada cuenta con 6
+                capítulos de 45 minutos cada uno.</p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Noticia del Dia</h2>
+                <h3>El Hermano De Chris Rock Quiere Boxear A Will Smith</h3>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-4 margenNoticia"></div>
+                <div class="col-4 will"></div>
+                <div class="col-4 margenNoticia"></div>
+            </div>
+    </div>
+
+
+    <!-- peli de la semana fin -->
+    <!-- contscto inicio -->
+
 
 
 

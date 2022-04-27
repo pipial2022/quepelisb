@@ -16,3 +16,51 @@
 .jumbotron p{
     font-size: 30px;
 }
+.carousel-inner{
+    height: 400px;
+    background-color: black;
+}
+.carousel-item{
+    text-align: center;
+
+}
+.carousel-item img{
+    height: 400px;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding: 40px;
+}
+.col-1{
+    background-color: black;
+}
+.imagenNoticia{
+    background-image: url(../imagenes/img/notihome.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.col-6{
+    background-color:black;
+    color: white;
+}
+/* ------Lo mejor de la semana fin */
+/* -----noticia del dia inicio--- */
+.col-12{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding: 40px;
+}
+.margenNoticia{
+    background-color:black;
+    height: 500px;
+}
+.will{
+    background-image: url(../imagenes/img/WillSmith.jpg);
+    background-size: cover;
+    background-position: center;
+}  
