@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="fondo">
     <!-- jumbotron inicio -->
     <div class="jumbotron">
         <h1>Que Pelis!</h1>
@@ -96,9 +96,8 @@
     <h2>Lo mejor de la semana</h2>
     <div class="conteiner-fluid">
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4 imagenNoticia"> </div>
-            <div class="col-6">
+            <div class="ubiImag col-sm-12 col-lg-6 "> <img src="../imagenes/img/notihome.jpg" class="imagenNoticia" alt=""> </div>
+            <div class="textoSem col-sm-12 col-lg-6">
                 <p>
                 <h3>Anatomía De Un Escándalo</h3>
                 Miniserie británica cuya primera temporada ya se encuentra disponible en Netflix. "Un escándalo de
@@ -108,24 +107,57 @@
                 Radcliffe, Josette Simon, Jonathan Coy, Violet Verigo, entre otros. La primera temporada cuenta con 6
                 capítulos de 45 minutos cada uno.</p>
             </div>
-            <div class="col-1"></div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="notiHome col-lg-12">
                 <h2>Noticia del Dia</h2>
                 <h3>El Hermano De Chris Rock Quiere Boxear A Will Smith</h3>
             </div>
         </div>
-            <div class="row">
-                <div class="col-4 margenNoticia"></div>
-                <div class="col-4 will"></div>
-                <div class="col-4 margenNoticia"></div>
-            </div>
+        <div class="row">
+            <div class="ubiImagNoti col-sm-12 col-lg-12 "> <img src="../imagenes/img/WillSmith.jpg" class="will" alt=""> </div>
+        </div>
     </div>
 
 
     <!-- peli de la semana fin -->
-    <!-- contscto inicio -->
+    <!-- contacto inicio -->
+    <div class="formulario">
+
+        <h2>Contactanos</h2>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="...">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Mail</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@example.com">
+            </div>
+            <h5>Sexo</h5>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Mujer</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Hombre</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">Indeterminado</label>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Comentarios:</label>
+                <textarea class="form-control" rows="5" id="comentarios..."></textarea>
+            </div>
+            <div>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
 
 
 
