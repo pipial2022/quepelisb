@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/estilos.css">
-    
+
     <title>Document</title>
 </head>
 
@@ -15,7 +20,7 @@
     <div class="jumbotron">
         <h1>Que Pelis!</h1>
         <p>No es una pagina para ver peliculas, es para saber de que tratan!</p>
-      </div>
+    </div>
     <!-- jumbotron final -->
     <!-- inicio navbar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -51,6 +56,72 @@
     <!-- fin navbar -->
 
 
+    <div class="conteiner-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>Comedia</h2>
+            </div>
+            <div class="card col-3" style="width: 18rem;">
+                <img src="../imagenes/img/generos/soncomoniños.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">La muerte de su entrenador de baloncesto durante su infancia provoca la reunión
+                        de algunos viejos amigos, quienes se ven en el lugar en el que celebraron un campeonato años
+                        atrás. Los compañeros hablan sobre sus esposas y sus hijos, y descubren que la edad no
+                        necesariamente va de la mano con la madurez.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contacto inicio -->
+    <div class="formulario">
+
+        <h2>Contactanos</h2>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="...">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Mail</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@example.com">
+            </div>
+            <h5>Sexo</h5>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Mujer</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Hombre</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">Indeterminado</label>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Comentarios:</label>
+                <textarea class="form-control" rows="5" id="comentarios..."></textarea>
+            </div>
+            <div>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <!-- contacto fin -->
+    <!-- footer inicio -->
+    <div class="footer col">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-reddit"></i>
+    </div>
+    <div class="footerb col">
+        <p>Que Pelis!</p>
+    </div>
 
 
 
@@ -64,4 +135,5 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
