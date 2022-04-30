@@ -1,4 +1,5 @@
 .fondo {
+    height: auto;
     background-image: linear-gradient(brown, black);
 }
 
@@ -308,3 +309,8 @@ h2 {
 /* ----fin del media seccion noticia--- */
 
 /* ----seccion generos--- */
+
+.estrellas{
+    color: black;
+    font-size: medium;
+}
