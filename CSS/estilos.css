@@ -333,12 +333,72 @@ h2 {
 .containerCine{
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
 }
 
 .mapa{
-    background-color: aqua;
+    flex-basis: 800px;
+}
+
+.tamañoMapa{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .animacion{
-    background-color: blue;
+    align-self: center;
+}
+
+.tamañoSvg{
+    width: 200px;
+    height: 200px;
+}
+/* ---mapa cine--- */
+/* ---lista de cines-- */
+
+.lista{
+    text-align: center;
+    color: white;
+    padding: 30px;
+
+}
+.listaCines{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.cardCine{
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+/*     flex-wrap: wrap;
+ */}
+
+.imCine{
+    background-image: url(../imagenes/img/cines/cinepolis.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-basis: 100px;
+}
+
+.tamañoCine{
+    width: 100%;
+}
+
+.textoCine{
+
+    }
+.textoCine ul li{
+    list-style: none;
+}
+
+.textoCine ul li a{
+    color:blue;
 }
