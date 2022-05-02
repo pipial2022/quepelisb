@@ -332,7 +332,7 @@ h2 {
 /* ---cines inicio-- */
 .containerCine{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: start;
@@ -402,3 +402,36 @@ h2 {
 .textoCine ul li a{
     color:blue;
 }
+
+/* ---fin lista de cines--- */
+
+/* ---media cines-- */
+
+@media only screen and (max-width: 720px){
+
+    .containerCine{
+        flex-direction: column;
+        justify-content: center;
+    }
+        
+
+    .listaCines{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cardCine{
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+
+    }
+    
+    .imCine{
+        background-repeat: no-repeat; 
+        background-size:contain ;
+        background-position: center ;
+    }
+}
+/* ----fin media cines--- */
