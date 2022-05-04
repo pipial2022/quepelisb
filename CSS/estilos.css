@@ -1,437 +1,380 @@
+@charset "UTF-8";
 .fondo {
-    height: auto;
-    background-image: linear-gradient(brown, black);
+  height: auto;
+  background-image: linear-gradient(brown, black);
+}
+.fondo main {
+  margin: 40px;
 }
 
-main{
-    margin: 40px;
-}
 /* ---nav inicio--- */
 .bg-dark {
-    background-color: brown !important;
+  background-color: brown !important;
 }
 
 .nav-link:hover {
-    color: black !important;
-    font-size: large;
+  color: black !important;
+  font-size: large;
 }
 
 /* ---nav fin-- */
-
 /* ---jumbotron inicio--- */
-
 .jumbotron {
-    background-image: url(../imagenes/popcorn.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    margin-bottom: auto;
-    border-radius: 0%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url(../imagenes/popcorn.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-bottom: auto;
+  border-radius: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 .jumbotron h1 {
-    font-size: 90px;
+  font-size: 90px;
 }
-
 .jumbotron p {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* ---jumbotron fin--- */
-
 /* ---carrusel inicio--- */
 .carousel-inner {
-    padding-top: 10px;
-    height: 400px;
+  padding-top: 10px;
+  height: 400px;
 }
 
 .carousel-item {
-    text-align: center;
-
+  text-align: center;
 }
 
 .carousel-item img {
-    height: 400px;
+  height: 400px;
 }
 
 /* ---carrusel fin--- */
-
 /* ---lo mejor de la semana inicio--- */
 h2 {
-    text-align: center;
-    color: white;
-    margin-bottom: 0px;
-    padding: 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  padding: 40px;
 }
 
 .imagenNoticia {
-    height: 300px;
+  height: 300px;
 }
-
-.ubiImag {
-    text-align: center;
-
+.imagenNoticia .ubiImag {
+  text-align: center;
 }
 
 .textoSem {
-    color: white;
-    text-align: justify;
-    padding: 60px;
+  color: white;
+  text-align: justify;
+  padding: 60px;
 }
-
 
 /* ------Lo mejor de la semana fin */
 /* -----noticia del dia inicio--- */
 .notiHome {
-    text-align: center;
-    color: white;
-    margin-bottom: 0px;
-    padding: 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  padding: 40px;
 }
 
 .margenNoticia {
-    height: 400px;
+  height: 400px;
 }
 
 .will {
-    height: 300px;
+  height: 300px;
 }
-
-.ubiImagNoti {
-    text-align: center;
+.will .ubiImagNoti {
+  text-align: center;
 }
 
 /* ----contacto inicio--- */
 .formulario {
-    color: white;
-    align-items: center;
+  color: white;
+  align-items: center;
 }
 
 /* ----contacto fin--- */
 /* ----footer--- */
 .footer {
-    background-color: rgb(29, 26, 26);
-    height: 70px;
-    color: white;
-    font-size: 40px;
-    text-align: center;
+  background-color: rgb(29, 26, 26);
+  height: 70px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
 .footerb {
-    background-color: rgb(12, 11, 11);
-    text-align: center;
-    color: white;
-    font-size: 80px;
+  background-color: rgb(12, 11, 11);
+  text-align: center;
+  color: white;
+  font-size: 80px;
 }
 
 /* ----seccion noticia inicio--- */
 .pageEstreno {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 260px 260px 260px;
-    gap: 10px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 260px 260px 260px;
+  gap: 10px;
 }
-
-.estreno {
-    background-color: rgba(255, 255, 255, 0.164);
+.pageEstreno .estreno {
+  background-color: rgba(255, 255, 255, 0.164);
 }
-
-.tituloes{
-    font-size: 20px;
-    text-align: center;
-    color: white;
+.pageEstreno .tituloes {
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
-
-.im1 {
-    background-image: url(../imagenes/img/amalgama.jpg);
-    background-size:cover;
-    background-position: center;
-    grid-column: 1/3;
-    grid-row: 1/2;
+.pageEstreno .estreno1 {
+  grid-column: 3/6;
+  grid-row: 1/2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 5px;
 }
-
-.estreno1 {
-    grid-column: 3/6;
-    grid-row: 1/2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    text-transform: capitalize;
-    padding: 5px;
-
+.pageEstreno .im1 {
+  background-image: url(../imagenes/img/amalgama.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 1/2;
 }
-
-.im2 {
-    background-image: url(../imagenes/img/eligeomuere.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-column: 1/3;
-    grid-row: 2/3;
+.pageEstreno .im2 {
+  background-image: url(../imagenes/img/eligeomuere.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 2/3;
 }
-
-.estreno2 {
-    grid-column: 3/6;
-    grid-row: 2/3;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    text-transform: capitalize;
-    padding: 5px;
-
+.pageEstreno .estreno2 {
+  grid-column: 3/6;
+  grid-row: 2/3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 5px;
 }
-
-.im3 {
-    background-image: url(../imagenes/img/ultraman.jpg);
-    background-size: cover;
-    background-position: center;
-    grid-column: 1/3;
-    grid-row: 3/4;
-    
+.pageEstreno .im3 {
+  background-image: url(../imagenes/img/ultraman.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/3;
+  grid-row: 3/4;
 }
-
-.estreno3 {
-    grid-column: 3/6;
-    grid-row: 3/4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    padding: 5px;
+.pageEstreno .estreno3 {
+  grid-column: 3/6;
+  grid-row: 3/4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 5px;
 }
 
 .pageNoticia {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
-
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
 }
-
-.pageNoticia1 {
-    background-color: rgba(255, 255, 255, 0.397);
+.pageNoticia .pageNoticia1 {
+  background-color: rgba(255, 255, 255, 0.397);
 }
-
-.titleNoticia {
-    width: 100%;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.411);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    padding-top: 5px;
-    text-align: center;
+.pageNoticia .titleNoticia {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.397);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding-top: 5px;
+  text-align: center;
 }
-
-.imagenNoticia {
-    width: 600px;
-    height: 300px;
-    background-image: url(../imagenes/img/WillSmith.jpg);
-    background-size: cover;
-    background-position: center;
+.pageNoticia .imagenNoticia {
+  width: 600px;
+  height: 300px;
+  background-image: url(../imagenes/img/WillSmith.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
-.textoNoticia {
-    height: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    text-align: justify;
-    padding: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-
+.pageNoticia .textoNoticia {
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* ----seccion noticia final--- */
 /* ---------MEDIA SECCION NOTICIAS---- */
-
 /* ------MEDIA ESTRENO--- */
-
 @media only screen and (max-width: 720px) {
-    .pageEstreno {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    }
+  .pageEstreno {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .pageEstreno .im1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .pageEstreno .estreno1 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 15px;
+  }
+  .pageEstreno .im2 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .pageEstreno .estreno2 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    font-size: 15px;
+  }
+  .pageEstreno .im3 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+  .pageEstreno .estreno3 {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    font-size: 15px;
+  }
 
-    .im1 {
-
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-
-    .estreno1 {
-        grid-column: 1/3;
-        grid-row: 2/3;
-        font-size: 15px;
-    }
-
-    .im2 {
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-
-    .estreno2 {
-        grid-column: 1/3;
-        grid-row: 4/5;
-        font-size: 15px;
-    }
-
-    .im3 {
-        grid-column: 1/3;
-        grid-row: 5/6;
-    }
-
-    .estreno3 {
-        grid-column: 1/3;
-        grid-row: 6/7;
-        font-size: 15px;
-    }
-
-    /* -------MEDIA NOTICIA------ */
-
-    .pageNoticia {
-        width: 100%;
-        height: auto;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 10px;
-
-    }
-
-    .titleNoticia {
-        width: 90%;
-        height: 80px;
-        font-size: 20px;
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .imagenNoticia {
-        width: 300px;
-        height: 200px;
-    }
-
-    .textoNoticia {
-        width: 90%;
-        height: auto;
-        font-size: 15px;
-    }
-
+  /* -------MEDIA NOTICIA------ */
+  .pageNoticia {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .pageNoticia .titleNoticia {
+    width: 90%;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .pageNoticia .imagenNoticia {
+    width: 300px;
+    height: 200px;
+  }
+  .pageNoticia .textoNoticia {
+    width: 90%;
+    height: auto;
+    font-size: 15px;
+  }
 }
-
 /* ----fin del media seccion noticia--- */
-
 /* ----seccion generos--- */
-
-.estrellas{
-    color: black;
-    font-size: medium;
+.estrellas {
+  color: black;
+  font-size: medium;
 }
+
 /* ---fin generos--- */
 /* ---cines inicio-- */
-.containerCine{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: start;
+.containerCine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+}
+.containerCine .mapa {
+  flex-basis: 800px;
+}
+.containerCine .tamañoMapa {
+  width: 100%;
+  border-radius: 10px;
+}
+.containerCine .animacion {
+  align-self: center;
+}
+.containerCine .tamañoSvg {
+  width: 200px;
+  height: 200px;
 }
 
-.mapa{
-    flex-basis: 800px;
-}
-
-.tamañoMapa{
-    width: 100%;
-    border-radius: 10px;
-}
-
-.animacion{
-    align-self: center;
-}
-
-.tamañoSvg{
-    width: 200px;
-    height: 200px;
-}
 /* ---mapa cine--- */
 /* ---lista de cines-- */
-
-.lista{
-    text-align: center;
-    color: white;
-    padding: 30px;
-
-}
-.listaCines{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-
+.lista {
+  text-align: center;
+  color: white;
+  padding: 30px;
 }
 
-.cardCine{
-    background-color: rgba(255, 255, 255, 0.404);
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-/*     flex-wrap: wrap;
- */}
+.listaCines {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  /* .textoCine{
 
-.imCine{
-    background-image: url(../imagenes/img/cines/cinepolis.jpg);
-    background-size: cover;
-    background-position: center;
-    flex-basis: 100px;
+  } */
 }
-
-.tamañoCine{
-    width: 100%;
+.listaCines .cardCine {
+  background-color: rgba(255, 255, 255, 0.164);
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  /*     flex-wrap: wrap;
+  */
 }
-
-/* .textoCine{
-
-    } */
-.textoCine ul li{
-    list-style: none;
+.listaCines .imCine {
+  background-image: url(../imagenes/img/cines/cinepolis.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-basis: 100px;
 }
-
-.textoCine ul li a{
-    color:blue;
+.listaCines .tamañoCine {
+  width: 100%;
+}
+.listaCines .textoCine ul li {
+  list-style: none;
+}
+.listaCines .textoCine ul li a {
+  color: blue;
 }
 
 /* ---fin lista de cines--- */
-
 /* ---media cines-- */
+@media only screen and (max-width: 720px) {
+  .containerCine {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-@media only screen and (max-width: 720px){
+  .listaCines {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .containerCine{
-        flex-direction: column;
-        justify-content: center;
-    }
-        
+  .cardCine {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
 
-    .listaCines{
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .cardCine{
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-
-    }
-    
-    .imCine{
-        background-repeat: no-repeat; 
-        background-size:contain ;
-        background-position: center ;
-    }
+  .imCine {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 }
 /* ----fin media cines--- */
+
+/*# sourceMappingURL=estilos.css.map */
