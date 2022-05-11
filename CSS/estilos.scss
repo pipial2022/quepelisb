@@ -77,13 +77,16 @@ h2 {
     padding: 40px;
 }
 /* ---fin todos los subtitulos--- */
-
+@mixin medidasimagen ($height , $width) {
+    height: $height;
+    width: $width;   
+}
 /* ---lo mejor de la semana inicio--- */
 .ubiImag {
     text-align: center;
 
     .imagenNoticia {
-        height: 300px;
+        @include medidasimagen(300px, 550px);
     }
 
 }
@@ -112,7 +115,8 @@ h2 {
     text-align: center;
 
     .will {
-        height: 300px;
+        @include medidasimagen(300px,500px )
+        
     }
 }
 

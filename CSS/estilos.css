@@ -68,6 +68,7 @@ h2 {
 
 .ubiImag .imagenNoticia {
   height: 300px;
+  width: 550px;
 }
 
 .textoSem, .pageNoticia .textoNoticia {
@@ -95,6 +96,7 @@ h2 {
 
 .ubiImagNoti .will {
   height: 300px;
+  width: 500px;
 }
 
 /* ----contacto inicio--- */
