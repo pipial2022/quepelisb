@@ -69,14 +69,16 @@ $colorFondo:linear-gradient(brown, black);
 
 /* ---carrusel fin--- */
 
-/* ---lo mejor de la semana inicio--- */
+/* ---todos los subtitulos--- */
 h2 {
     text-align: center;
     color: $colorTexto;
     margin-bottom: 0px;
     padding: 40px;
 }
+/* ---fin todos los subtitulos--- */
 
+/* ---lo mejor de la semana inicio--- */
 .ubiImag {
     text-align: center;
 
@@ -123,7 +125,7 @@ h2 {
 
 /* ----contacto fin--- */
 /* ----footer--- */
-.footer {
+.iconos {
     background-color: $colorFooter;
     height: 70px;
     color: $colorTexto;
@@ -138,7 +140,9 @@ h2 {
     font-size: 80px;
 }
 
-/* ----seccion noticia inicio--- */
+/* ---final footer e inicio-- */
+
+/* ----seccion noticia --- */
 .pageEstreno {
     width: 100%;
     height: auto;
@@ -212,18 +216,18 @@ h2 {
     row-gap: 10px;
 
     .titleNoticia {
+        color: $colorTexto;
         width: 100%;
         height: 60px;
-        background-color: $colorFondoTextoOs;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30px;
         padding-top: 5px;
         text-align: center;
     }
 
-    .pageNoticia1 {
+    /* .pageNoticia1 {
         background-color: $colorFondoTextoOs;
-    }
+    } */
 
     .imagenNoticia {
         width: 600px;
@@ -234,18 +238,35 @@ h2 {
     }
 
     .textoNoticia {
-        height: auto;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-        text-align: justify;
-        padding: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
-
+        @extend .textoSem;
+        font-size: 20px;
     }
 }
 
-/* ----seccion noticia final--- */
+$listanoti: (
+
+    l1: blue,
+    l2: pink,
+    l3: orange,
+    l4: green,
+    );
+
+@each $l, $color in $listanoti {
+    .listanoti-#{$l} {
+        width: 50%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        background-color: $color;
+        margin: 10px;
+        border-radius: 5px;
+    }
+    
+}
+
+
+
+/* ----final seccion noticia --- */
+
 /* ---------MEDIA SECCION NOTICIAS---- */
 
 /* ------MEDIA ESTRENO--- */
@@ -403,9 +424,6 @@ h2 {
         width: 100%;
     }
 
-    /* .textoCine{
-
-    } */
     .textoCine ul li {
         list-style: none;
     }
