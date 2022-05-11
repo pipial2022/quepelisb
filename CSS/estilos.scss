@@ -1,14 +1,11 @@
 $colorTexto: white;
 $colorFondoTextoCl: rgba(255, 255, 255, 0.164);
-$colorFondoTextoOs:rgba(255, 255, 255, 0.397);
+$colorFondoTextoOs: rgba(255, 255, 255, 0.397);
 $colorGeneral: brown;
 $colorTextoBlack: black;
 $colorFooter: rgb(29, 26, 26);
 $colorFooter2: rgb(12, 11, 11);
-$colorFondo:linear-gradient(brown, black);
-
-
-
+$colorFondo: linear-gradient(brown, black);
 
 
 .fondo {
@@ -20,14 +17,13 @@ $colorFondo:linear-gradient(brown, black);
     }
 }
 
-
 /* ---nav inicio--- */
 .bg-dark {
-    background-color: $colorGeneral !important;
+    background-color: $colorGeneral  !important;
 }
 
 .nav-link:hover {
-    color: $colorTextoBlack !important;
+    color: $colorTextoBlack  !important;
     font-size: large;
 }
 
@@ -49,7 +45,6 @@ $colorFondo:linear-gradient(brown, black);
         font-size: 90px;
     }
 }
-
 
 /* ---jumbotron fin--- */
 
@@ -76,11 +71,13 @@ h2 {
     margin-bottom: 0px;
     padding: 40px;
 }
+
 /* ---fin todos los subtitulos--- */
 @mixin medidasimagen ($height , $width) {
     height: $height;
-    width: $width;   
+    width: $width;
 }
+
 /* ---lo mejor de la semana inicio--- */
 .ubiImag {
     text-align: center;
@@ -97,8 +94,8 @@ h2 {
     padding: 60px;
 }
 
-
 /* ------Lo mejor de la semana fin */
+
 /* -----noticia del dia inicio--- */
 .notiHome {
     text-align: center;
@@ -115,11 +112,9 @@ h2 {
     text-align: center;
 
     .will {
-        @include medidasimagen(300px,500px )
-        
+        @include medidasimagen(300px, 500px)
     }
 }
-
 
 /* ----contacto inicio--- */
 .formulario {
@@ -253,21 +248,19 @@ $listanoti: (
     l2: pink,
     l3: orange,
     l4: green,
-    );
+);
 
 @each $l, $color in $listanoti {
     .listanoti-#{$l} {
-        width: 50%;
+        width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 25px;
         background-color: $color;
         margin: 10px;
         border-radius: 5px;
     }
-    
+
 }
-
-
 
 /* ----final seccion noticia --- */
 
@@ -279,7 +272,6 @@ $listanoti: (
     .pageEstreno {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
 
         .im1 {
 
@@ -326,8 +318,6 @@ $listanoti: (
         flex-direction: column;
         align-items: center;
         row-gap: 10px;
-
-
 
         .titleNoticia {
             width: 90%;
@@ -406,8 +396,6 @@ $listanoti: (
     gap: 20px;
     justify-content: center;
 
-
-
     .cardCine {
         background-color: $colorFondoTextoCl;
         width: 500px;
@@ -448,11 +436,9 @@ $listanoti: (
         justify-content: center;
     }
 
-
     .listaCines {
         flex-direction: column;
         justify-content: center;
-
 
         .cardCine {
             flex-direction: column;
