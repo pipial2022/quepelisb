@@ -480,6 +480,30 @@ h2 {
       flex-basis: 100px;
 }
 
+.listaCines .imCineDos {
+  background-image: url(../imagenes/img/cines/cinemark.jpg);
+  background-size: cover;
+  background-position: center;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+.listaCines .imCineTres {
+  background-image: url(../imagenes/img/cines/cineItalia.jpg);
+  background-size: cover;
+  background-position: center;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+.listaCines .imCineCuatro {
+  background-image: url(../imagenes/img/cines/multiplex.jpg);
+  background-size: cover;
+  background-position: center;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
 .listaCines .tamañoCine {
   width: 100%;
 }
